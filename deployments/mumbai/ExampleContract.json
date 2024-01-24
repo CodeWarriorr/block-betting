@@ -1,68 +1,68 @@
 {
-  "address": "0xca04408Ef2B0B76581c7f96B6Dc19dDeC18bB81a",
-  "abi": [
-    {
-      "inputs": [
+    "address": "0x9946Cc2aF6fB64BFa430C63a574C0bB246E257aA",
+    "abi": [
         {
-          "internalType": "uint256",
-          "name": "publicVar_",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "nonpayable",
-      "type": "constructor"
-    },
-    {
-      "inputs": [],
-      "name": "examplePublicVar",
-      "outputs": [
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "publicVar_",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
         {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
+            "inputs": [],
+            "name": "examplePublicVar",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
         {
-          "internalType": "uint256",
-          "name": "var_",
-          "type": "uint256"
-        }
-      ],
-      "name": "exampleSetPublicVar",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "getExamplePublicVar",
-      "outputs": [
+            "inputs": [],
+            "name": "getExamplePublicVar",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
         {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "owner",
-      "outputs": [
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
         {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "var_",
+                    "type": "uint256"
+                }
+            ],
+            "name": "setExamplePublicVar",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
         }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    }
-  ]
+    ]
 }
